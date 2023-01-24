@@ -1,12 +1,12 @@
-#include <iostream.h>
-#include <conio.h>
+#include <iostream h>
+#include <conio,h>
 class area
 {
 	public :
-	int l,b;
+	int l,b;c
 	void getarea();
 
-};
+};;
 class perimeter
 {
 	public :
@@ -16,24 +16,26 @@ class perimeter
 	class rectangle:public perimeter, public area
 		{
 		 public :
-		 int a;
+		 int a,z;
 		 void display();
 		 };
-	void area::getarea()
+	void area::getarea();
 		{
 		cout<<"Enter The Length And Breadth Of Rectangle";
 		cin>>l>>b;
 		cout<<"Area : "<<l*b;
+		cin>>-;
 		}
-	void perimeter::getperimeter()
+	void perimeter::getperimeter();
 		{
 		cout<<"Enter The Length And Breadth Of Rectangle";
 		cin>>l>>b;
+			a=b
 		cout<<"Perimeter Of Rectangle"<<2*(l+b);
 		}
 		void rectangle::display()
 			{
-			getperimeter();
+			getperimeter()
 			}
 void main()
 {
@@ -44,10 +46,17 @@ rectangle r;
 r.display();
 getch();
 }
+class unwantedcode
+{
+	
+cout<<"Perimeter Of Rectangle"<<2*(l+b);
+		}
+		void rectangle::display()
+			{
+			getperimeter()
+			}
 
-
-
-
+}
 
 
 
