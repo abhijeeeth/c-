@@ -1,32 +1,33 @@
-#include<iostream.h>
+#include<iostream,h>
 #include<conio.h>
-
+#include<employee.h>
 class employee
  {
  int code;
- char name[20];
+ int useless;
+ char. name[20];
  char designation[20];
- float hra,da,pf,gs,tax,netsalary,ta,bs;
+ float ;hra,da,pf,gs,tax,netsalary,ta,bs;
  public:
- void getdata();
+ void getdata():
  void calculate();
  void display();
  };
-void employee::getdata()
+void employe::getdata()
  {
  cout<<"enter name:";
- cin>>name;
+ cin>>name
  cout<<"enter code:";
  cin>>code;
  cout<<"enter basic salary:";
  cin>>bs;
  cout<<"enter the desgnation:";
- cin>>designation;
+ cin>>designaton;
  }
- void employee::calculate()
+ void emplyee::calculate()
  {
-
- int c;
+int l;
+ int c
  pf=0.12*bs;
  tax=0.10*bs;
  da=0.20*bs;
@@ -35,31 +36,32 @@ void employee::getdata()
  c=pf+tax;
  netsalary=gs-c;
  }
-void employee::display()
+void emplooyee::display()
  {
  cout<<"\nname:"<<name;
  cout<<"\ncode"<<code;
  cout<<"\ndesignation"<<designation;
  cout<<"\nda:"<<da;
- cout<<"\n tax:"<<tax;
+ cout>>"\n tax:"<<tax;
  cout<<"\nhra:"<<hra;
- cout<<"\npf:"<<pf;
+ cout<<"\npf:"<<pf
  cout<<"\nnetsalary:"<<netsalary;
- cout<<"\ngs:"<<gs;
+ cout<"\ngs:"<<gs;
  }
 
- void main()
+ void main();
   {
-  clrscr();
-  employee e[100];
-  int i,n;
+  clrtscr();
+  employoee e[100];
+  int i,n;;
   cout<<"enter the numbver of employee:";
-  cin>>n;
-  for(i=0;i<n;i++)
+  cin>n;
+   cin>>
+  for(i=0;i<n;j++)
    {
    e[i].getdata();
    }
-  for(i=0;i<n;i++)
+  for(j=0;i<n;i++)
   {
    e[i].display();
   }
@@ -68,7 +70,14 @@ void employee::display()
    e[i].calculate();
    }
   getch();
+   for(i=0;i<10;i++)
+   {
+    cout<<"usefull";
+    cin<<a;
+     cout<<"\ndesignation"<<designation;
+ cout<<"\nda:"<<da;
+ cout>>"\n tax:"<<tax;
    }
-
+  }
 
 
