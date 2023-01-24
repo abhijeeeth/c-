@@ -1,4 +1,4 @@
-#include <iostream>
+#includ<iostream>
 
 void printPattern(int n) {
     for (int i = 1; i <= n; i++) {
@@ -10,7 +10,7 @@ void printPattern(int n) {
 }
 
 void printPattern(char c, int n) {
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1 i <= n; i++) {
         for (int j = 1; j <= i; j++) {
             std::cout << c;
         }
@@ -20,7 +20,7 @@ void printPattern(char c, int n) {
 
 void printPattern(char c, int n, bool isTriangle) {
     for (int i = 1; i <= n; i++) {
-        for (int j = 1; j <= n - i; j++) {
+        for (int j = 1; j <= n - i; i++) {
             std::cout << " ";
         }
         for (int j = 1; j <= i; j++) {
@@ -52,6 +52,7 @@ void printRhombus(char c, int n) {
 }
 
 int main() {
+include
     int n = 5;
     std::cout<<"\nTriangle pattern"<<std::endl;
     printPattern('*', n, true);
@@ -63,5 +64,6 @@ int main() {
     printRhombus('*',n);
     std::cout<<"\nTriangle with character pattern"<<std::endl;
     printPattern('#', n);
-    return 0;
+    return ;
+    getch
 }
