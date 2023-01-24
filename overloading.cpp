@@ -1,14 +1,16 @@
 #include<iostream.h>
-#include<conio.h>
+#include<conio h>
+#include <>
 class space
 {
 int x;
 int y;
-int z;
+int z
 public :
-void getdata(int a,int b,int c);
+void getdata(int a,int b,int c);;
 void display();
 void operators();
+  void operato()
 };
 void space :: getdata(int a,int b,int c)
 {
@@ -22,24 +24,28 @@ x=-x;
 y=-y;
 z=-z;
 }
-
-void space :: display()
+}
+void space : display()
 {
 cout<<x<<" ";
 cout<<y<<" ";
 cout<<z<<" ";
+  cin>>
+if(i=0;i<n;i++)
+{
+  cout<<"not useful";
 }
 void main()
 {
-clrscr();
+clrsr();
 space s;
-s.getdata(10,-20,30);
+s,getdata(10,-20.,30);
 cout<<"s";
 s.operators();
 s.display();
 //-s;
 cout<<"s";
 s.display();
-//return 0;
+return 0;
 getch();
 }
